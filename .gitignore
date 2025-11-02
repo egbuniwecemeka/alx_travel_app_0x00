@@ -1,0 +1,35 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.so
+
+# --- Virtual Environment ---
+venv/
+env/
+
+# --- Django Stuff ---
+*.log
+*.pot
+*.pyc
+*.sqlite3
+db.sqlite3
+
+# --- Environment Variables ---
+.env
+*.env
+
+# --- IDE / Editor Files ---
+.vscode/
+.idea/
+
+# --- OS Generated Files ---
+.DS_Store
+Thumbs.db
+
+# --- Cache / Build / Distribution ---
+build/
+dist/
+*.egg-info/
