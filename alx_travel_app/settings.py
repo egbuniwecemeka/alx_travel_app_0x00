@@ -77,6 +77,13 @@ def parse_email_list(value):
 ADMINS = parse_email_list(env('ADMINS'))
 MANAGERS = parse_email_list(env('MANAGERS'))
 
+# To completely prevent default search from happening,
+# use an absolute path to specify the location of your fixture file,
+#  e.g. loaddata /path/to/sample.
+FIXTURES_BASE = [
+    BASE_DIR / 'fixtures'
+]
+
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',

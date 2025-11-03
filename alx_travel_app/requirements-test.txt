@@ -1,0 +1,5 @@
+pytest
+pytest-django
+django-seed
+faker
+coverage
