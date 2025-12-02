@@ -92,7 +92,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles', # required for serving swagger ui's css/js files
     'rest_framework',
-    'listings',
+    'listings', # informs django to use modules in the app
     'corsheaders',
     'drf_yasg',
 ]
